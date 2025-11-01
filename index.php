@@ -33,7 +33,7 @@
     </div>
  </div>
 
- <!-- Tambahkan banner di sini -->
+ <!-- Tambahkan banner toko niscare -->
  <div class="slider-banner" style="margin: 20px 0; text-align: center;">
  <div class="slides">
   <img src="img/banner_niscare.png" alt="Banner Promo" style="width: 70%; max-width: 1000px; border-radius: 10px;">
