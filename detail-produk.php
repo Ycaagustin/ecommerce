@@ -51,7 +51,7 @@
             <h4>Rp. <?php echo number_format($p->produk_harga)?></h4>
             <p> Deskripsi :<br>
                 <?php echo $p->produk_deskripsi ?></p>
-                <p><a href ="https://api.whatsapp.com/send?phone=<?php echo $a->admin_telp ?>&text=Hai, saya tertarik dengan produk anda" target="_blank">
+                <p><a href ="https://api.whatsapp.com/send?<?php echo $a->admin_telp ?>&text=Hai, saya tertarik dengan produk anda" target="_blank">
                     Hubungi via WhatsApps
                     <img src="img/download.jpeg" width="50px"></a></p>
         </div>
