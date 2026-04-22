@@ -1,8 +1,12 @@
 <?php
-    $hostname = 'localhost';
-    $username = 'root';
-    $password = '';
-    $dbname = 'bukatoko';
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$dbname   = "ecommerce";
 
-    $conn = mysqli_connect($hostname,$username,$password,$dbname, );
+$conn = mysqli_connect($hostname, $username, $password, $dbname);
+
+if (!$conn) {
+    die("Koneksi gagal: " . mysqli_connect_error());
+}
 ?>

@@ -51,13 +51,44 @@
             <h4>Rp. <?php echo number_format($p->produk_harga)?></h4>
             <p> Deskripsi :<br>
                 <?php echo $p->produk_deskripsi ?></p>
-                <p><a href ="https://api.whatsapp.com/send?phone=<?php echo $a->admin_telp ?>&text=Hai, saya tertarik dengan produk anda" target="_blank">
-                    Hubungi via WhatsApps
+                <p>
+    <!-- Tombol Midtrans -->
+    <a href="checkout.php?id=<?php echo $p->produk_id ?>" class="btn-bayar">
+        Bayar Sekarang
+    </a>
+</p>
+
+<p>
+    <!-- Tombol WhatsApp -->
+    <a href="https://api.whatsapp.com/send?phone=<?php echo $a->admin_telp ?>&text=Hai, saya tertarik dengan produk <?php echo $p->produk_nama ?>" target="_blank" class="btn-wa">
+        Order via WhatsApp
+    </a>
+</p>
                     <img src="img/download.jpeg" width="50px"></a></p>
         </div>
         </div>
     </div>
   </div>
+  <style>
+    .btn-bayar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f4b400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-wa {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    </style>
 
      <!-- footer -->
       <div class="footer">
