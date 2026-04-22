@@ -765,7 +765,7 @@ html {
 
 <!-- NEW ARRIVAL SECTION -->
 <div id="produk" class="section produk">
-    <h2 class="section-title">🍌 PRODUK KAMI</h2>
+    <h2 class="section-title">PRODUK KAMI</h2>
     <p class="section-desc">Pilihan keripik pisang terbaik dengan berbagai varian rasa.</p>
 
     <div class="produk-list">
